@@ -26,7 +26,7 @@ Novel Djokvich
 
 
 
-2. Create separate patterns that finds all the following invoice numbers and dates:
+2. Create separate patterns that find all the following invoice numbers and dates:
 
 Invoice 34244 form
 Date of invoice: 10/22/2001
