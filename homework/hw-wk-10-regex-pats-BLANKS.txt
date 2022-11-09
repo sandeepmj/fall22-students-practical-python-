@@ -5,7 +5,7 @@ NOTE: Copy this entire page and post into regex.101. 
 Do not copy individual questions. 
 
 
-1. Create a pattern that captures any permutation of the name "John Smith". This should include "Jon Smith" or "Jon Smythe", etc. Here are the names: 
+1. Create a pattern that finds any permutation of the name "John Smith". This should include "Jon Smith" or "Jon Smythe", etc. Here are the names: 
 
 Florence smith
 John Smith
@@ -26,7 +26,7 @@ Novel Djokvich
 
 
 
-2. Create separate patterns that capture all the following invoice numbers and dates:
+2. Create separate patterns that finds all the following invoice numbers and dates:
 
 Invoice 34244 form
 Date of invoice: 10/22/2001
@@ -46,7 +46,7 @@ Invoice 34244 form
 Date of invoice: 10/22/2001
 Invoice 49204
 
-3. Create a pattern that captures all animals and their weights
+3. Create a pattern that finds all animals and their weights
 
 Animal, Weight
 Cat, 20
