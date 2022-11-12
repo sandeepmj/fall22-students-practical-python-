@@ -1,0 +1,77 @@
+Use regex101.com to find the solutions to the following problems:
+
+NOTE: Copy this entire page and post into regex.101. 
+
+Do not copy individual questions. 
+
+
+1. Create a pattern that finds any permutation of the name "John Smith". This should include "Jon Smith" or "Jon Smythe", etc. Here are the names: 
+
+Florence smith
+John Smith
+Carol Brown
+Peter Trapp
+Jon Smythe
+Luca Smith
+John Smythe
+Maggie Veach
+Jon Smith
+Katie Pine
+John Smth
+John Brown
+jon Smith
+Peter Finch
+Novel Djokvich
+
+
+REGEX: 
+^(jo|Jo)(hn|n)\sSm\w+
+
+We need the carat otherwise we get the names in the instructions.
+
+2. Create separate patterns that find all the following invoice numbers and dates:
+
+Invoice 34244 form
+Date of invoice: 10/22/2001
+Invoice 49204
+
+
+Invoice 34244 form
+Date of invoice: 9/12/2001
+Invoice 495046
+
+
+Invoice 34244 form
+Date of invoice: 4/1/22
+Invoice 4951046
+
+Invoice 34244 form
+Date of invoice: 10/22/2001
+Invoice 49204
+
+
+
+REGEX for invoice:
+Invoice\s\d+$
+
+
+REGEX for date:
+\s\d{1,2}\/\d{1,2}\/\d{2,4}
+
+3. Create a pattern that finds all animals and their weights
+
+Animal, Weight
+Cat, 20
+Dog, 50
+Rhino, 809
+Elephant, 1000
+
+REGEX:
+\w+,\s\d{1,5}
+
+
+
+
+
+
+
